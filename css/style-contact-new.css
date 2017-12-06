@@ -1,0 +1,56 @@
+#content {
+  margin-top: 60px;
+}
+
+#content a {
+  color: #407EE3;
+  text-decoration: none;
+}
+
+#content .field {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
+}
+
+#content input[name="subject"],
+#content input[name="email"] {
+  width: 90%;
+}
+
+#content textarea {
+  width: 90%;
+  height: 200px;
+}
+
+#contact-submit {
+  margin-top: 10px;
+}
+
+#contact-error,
+#contact-success {
+  margin-top: 10px;
+  display: none;
+}
+
+#contact-error {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(221, 32, 32);
+  background-color: rgb(194, 194, 194);
+}
+
+#contact-success {
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(70, 165, 31);
+  background-color: rgb(194, 194, 194);
+}
+
+#alternative {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+

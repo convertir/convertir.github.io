@@ -1,0 +1,30 @@
+#content {
+  margin-top: 60px;
+}
+
+#content a {
+  color: #407EE3;
+  text-decoration: none;
+}
+
+#extensions {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+#extensions .extension-box {
+  text-align: center;
+
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  height: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+#extensions p {
+  margin: 0 0 1em;
+}

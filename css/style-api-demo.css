@@ -1,0 +1,40 @@
+#invite-form {
+  margin-bottom: 1em;
+}
+
+#code-form input[type="submit"] {
+  
+}
+
+#invite-form-error,
+#run-form-error {
+  display: none;
+  color: red;
+}
+
+#invite-form-success,
+#run-form-success {
+  display: none;
+  color: green;
+}
+
+#demo {
+  display: none;
+}
+
+.float-fix-a {
+  position: relative;
+  float: right;
+  right: 50%;
+  margin-top: 10px;
+}
+
+.float-fix-b {
+  position: relative;
+  float: right;
+  right: -50%;
+}
+
+.clear {
+  clear: both;
+}

@@ -1,0 +1,108 @@
+.browserling-widget .dropdown {
+  border: 1px solid #78ACE8;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.browserling-widget .dropdown {
+  cursor: pointer;
+  position: relative;
+}
+
+.browserling-widget .dropdown .dropdown-arrow {
+  position: absolute;
+  z-index: 100;
+}
+
+.browserling-widget .dropdown .item {
+  position: relative;
+}
+
+.browserling-widget .dropdown .item:hover {
+  background-color: #e0e0e0;
+}
+
+.browserling-widget .dropdown .item .icon {
+  display: inline-block;
+  margin: 3px;
+  margin-right: 10px;
+}
+
+.browserling-widget .dropdown .item .text {
+  display: inline-block;
+  position: absolute;
+  top: 12px;
+}
+
+.browserling-widget .dropdown .dropdown-slider {
+  display: none;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+
+.browserling-widget-url input {
+  width: 350px;
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid #78ACE8;
+  color: #2E527B;
+}
+
+.browserling-widget-url input:focus {
+  background-color: #E3F0FF;
+}
+
+.browserling-widget-url button {
+  width: 120px;
+  font-size: 20px;
+  padding: 5px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border: 1px solid #78ACE8;
+  border-radius: 3px;
+
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  color: #ffffff;
+}
+
+.browserling-widget-url button:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+}
+
+.browserling-widget-url button:active {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+}
+
+.browserling-widget-platform-browser-version {
+  overflow: hidden;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.browserling-widget-platform {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.browserling-widget-browser {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 10px;
+}
+
+.browserling-widget-version {
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
+}
