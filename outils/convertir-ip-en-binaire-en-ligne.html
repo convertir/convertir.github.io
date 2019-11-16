@@ -3,7 +3,7 @@
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Convertir IP en Binaire - Convertisseur en ligne</title>
+    <title>Convertir adresse IP en Binaire - Convertisseur IP en ligne</title>
     <meta name="description" content="Vous voulez Convertir une adresse IP en Binaire? - voilà un outil en ligne pour la Conversion IP en Binaire, un outil simple, facile et rapide">
 
     
@@ -71,7 +71,7 @@
     </div>
     <div id="browser-window-body">
       <h1>Convertir adresse IP en Binaire</h1>
-      <h2>+300 outils pour les  web développeurs</h2>
+      <h2>Convertisseur IP en ligne</h2>
       <div id="browser-window-content">
         <div id="tool-description">
           
@@ -378,9 +378,32 @@ Vous voulez Convertir une adresse IP en Binaire? - voilà un outil en ligne pour
                   <a href="convertir-hex-en-cmyk.html">Convertir Hex en CMYK</a>
                 </div>
 
-				<div id="pro-tip">
-                    <p>Y'a t-il un outil que vous ne trouvez pas sur notre site? Contactez nous,</p> 
-		  <p>et nous serons plus qu'heureux de l'ajouter..</p>
+<div id="tools">
+<p></p>
+<h3><b>Comment convertir du binaire en texte:</b></h3>
+<p>Bien que nous utilisions tous la notation décimale pour une adresse IP, tous les calculs sont effectués en valeurs binaires. Si vous souhaitez effectuer un calcul, vous devez d&rsquo;abord comprendre la conversion décimale en binaire. Chaque adresse IP est composée de quatre octets et chaque octet d&rsquo;une adresse IP est représenté par 8 bits.</p>
+<p>octet1 octet2 octet3 octet4<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; &#8212;&#8212;&#8212;&#8212;&#8212;<br />
+192 168 90 1</p>
+<p>Maintenant que vous savez que chaque adresse IP a 4 octets, examinons de plus près l&rsquo;octet 1. Cet octet a une valeur décimale de 192 qui représenterait une valeur binaire de 11000000. Chaque valeur binaire est composée de 8 bits, 1 ou 0. Si un bit est égal à 1, il est considéré comme « actif » ou activé. Si la valeur est 0, il est « inactif » ou désactivé. Mais comment 192 fait-il 11000000?</p>
+<p>Simple, jetez un oeil à la table de calcul binaire standard ci-dessous. Vous voyez 8 chiffres, qui représentent les 8 bits dans une valeur binaire. Placez la valeur binaire 11000000 en dessous et voyez ce qui se passe.</p>
+<p>128 64 32 16 8 4 2 1<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
+1 1 0 0 0 0 0 0 &#8211; Bits</p>
+<p>Chaque bit défini sur 1 étant considéré comme actif, ajoutez les valeurs correspondant à 1.</p>
+<p>128 + 64 = 192.</p>
+<p>Autre exemple:</p>
+<p>la valeur décimale 219 donnerait une valeur binaire de:</p>
+<p>128 64 32 16 8 4 2 1<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;- &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;<br />
+1 1 0 1 1 0 1 1 &#8211; Bits</p>
+<p>128 + 64 + 16 + 8 + 2 + 1 = 219</p>
+<p>Si vous convertissiez les quatre octets de l&rsquo;adresse IP 192.168.90.1 en binaire, cela ressemblerait à ceci:</p>
+<p>octet1 octet2 octet3 octet4<br />
+&#8212;&#8212;&#8212;&#8212;&#8212; &#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;-<br />
+192 168 90 1<br />
+&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; &#8212;&#8212;&#8212;&#8211;<br />
+11000000. 10101000. 01011010. 00000001</p>
         </div>
       </div>
     </div>
